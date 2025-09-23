@@ -41,7 +41,6 @@ class MainWindow(QMainWindow):
         
     def changeButtonIcon(self):
         """When the button is clicked, change the icon to a different random icom from the images list."""
-        self.icon_button.setIcon(QIcon(random.choice(self.images)))
         self.icon_button.setIconSize(QSize(60, 60))
     
 if __name__ == "__main__":
